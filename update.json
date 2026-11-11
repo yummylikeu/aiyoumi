@@ -1,0 +1,9 @@
+{
+  "version": "1.1.7",
+  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.1.7/aiyoumi_1.1.7.zip",
+  "kind": "onedir",
+  "size": 72944760,
+  "sha256": "5e943e7a4413257968dec5942e5b155f6e5144c8f322cba12d73a140eb29e5a0",
+  "notes": "恢复自动模式；主程序固定名 哎呦咪.exe；目录版支持原地升级 + GitHub 镜像加速",
+  "force": false
+}
