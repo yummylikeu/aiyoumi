@@ -1,9 +1,9 @@
 {
-  "version": "1.1.8",
-  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.1.8/aiyoumi_1.1.8.zip",
+  "version": "1.1.9",
+  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.1.9/aiyoumi_1.1.9.zip",
   "kind": "onedir",
-  "size": 72957394,
-  "sha256": "4f03330da197e8355eed5fac552550c99f405a2704d276d8828d6278e3cb375e",
-  "notes": "修复真机日志暴露的四类故障：设备序列号兜底值错误、MuMu 未找到时报「参数错误」、adb 连接失败死等 60 秒、调试代理加载密文插件失败",
+  "size": 72957900,
+  "sha256": "473f060849c6e83ce6d9648026ee2b5c92cbee3965956db2fc9c605235f48a7d",
+  "notes": "在线更新线路优化：ghfast.top 提到首位、退役 ghproxy.net；版本清单与更新包分开记忆最优线路（清单走低延迟、大包走高带宽）",
   "force": false
 }
