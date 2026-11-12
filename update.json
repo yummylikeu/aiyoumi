@@ -1,9 +1,9 @@
 {
-  "version": "1.1.9",
-  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.1.9/aiyoumi_1.1.9.zip",
+  "version": "1.2.0",
+  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.2.0/aiyoumi_1.2.0.zip",
   "kind": "onedir",
-  "size": 72957900,
-  "sha256": "473f060849c6e83ce6d9648026ee2b5c92cbee3965956db2fc9c605235f48a7d",
-  "notes": "在线更新线路优化：ghfast.top 提到首位、退役 ghproxy.net；版本清单与更新包分开记忆最优线路（清单走低延迟、大包走高带宽）",
+  "size": 72972129,
+  "sha256": "5e477d2654b3a1da337c6b11a2890e83998070121994c13113081bdf15bbdafe",
+  "notes": "修复「修复环境找不到 MuMu 模拟器」：环境检查与模拟器启动改用与自检相同的定位逻辑，支持 MuMu 装在任意盘符与任意目录（含 E:\\MuMU\\MuMuPlayer 这类布局）；补上从注册表卸载信息读取安装路径；修正 mumu_path.txt 填好后不重启仍不生效的问题（保存后再点一次「修复环境」即可）",
   "force": false
 }
