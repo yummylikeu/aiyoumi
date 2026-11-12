@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.2.0/aiyoumi_1.2.0.zip",
+  "version": "1.2.1",
+  "url": "https://github.com/yummylikeu/aiyoumi/releases/download/v1.2.1/aiyoumi_1.2.1.zip",
   "kind": "onedir",
-  "size": 72972129,
-  "sha256": "5e477d2654b3a1da337c6b11a2890e83998070121994c13113081bdf15bbdafe",
-  "notes": "修复「修复环境找不到 MuMu 模拟器」：环境检查与模拟器启动改用与自检相同的定位逻辑，支持 MuMu 装在任意盘符与任意目录（含 E:\\MuMU\\MuMuPlayer 这类布局）；补上从注册表卸载信息读取安装路径；修正 mumu_path.txt 填好后不重启仍不生效的问题（保存后再点一次「修复环境」即可）",
+  "size": 72967107,
+  "sha256": "17193dd88e29a5d65f373f6ee541a0d3c44e7923ad0f7515d58de51d814e467a",
+  "notes": "修复 Android 14/15 上「点开始后黑屏 / 重开 App 网络错误」：系统证书库从 Android 14 起迁到 Conscrypt APEX，旧做法只装 /system 等于没装；同时把证书挂载注入 zygote 的 namespace（只在 init 里挂，App 根本看不到）。另修：多开时设备命令一律打到实例 0（会给出错误结论）、证书 bind 源目录复用残缺副本导致系统根证书被删到 131 个、以及「挂载成功」判定恒为真。已在 MuMu 的 Android 15(SDK 35) 与 Android 12(SDK 32) 实例上真机验证通过。",
   "force": false
 }
